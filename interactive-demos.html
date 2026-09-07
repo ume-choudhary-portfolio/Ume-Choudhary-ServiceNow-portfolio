@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FSM Interactive Demos | Ume Choudhary</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"></head>
+<body><div class="mouse-glow" id="mouseGlow"></div>
+<header><a class="brand" href="index.html"><span class="brandmark">UC</span><span><b>Ume Choudhary</b><small>FSM Demo Lab</small></span></a><button class="menubtn" id="menuBtn">Menu</button>
+<nav id="nav"><a href="index.html">Home</a><a href="case-studies.html">Case Studies</a><a href="dashboard-kpi-reporting.html">Dashboards</a><a class="navcv" href="Ume_Choudhary_ServiceNow_FSM_CV.pdf" target="_blank">View CV ↗</a></nav></header>
+<main>
+<section class="page-hero shell reveal"><span class="status-chip">Interactive portfolio demo lab</span><h1>ServiceNow FSM & <span class="gradient">Field Operations Demo Lab.</span></h1><p>Short synthetic simulations that demonstrate field-service thinking without presenting fake client screens or confidential data.</p></section>
+<section class="section shell">
+<div class="demo-panel reveal">
+<div class="tabs"><button class="active" data-tab="workorder">Work Order</button><button data-tab="dispatch">Scheduling & Dispatch</button><button data-tab="sla">SLA & Escalation</button><button data-tab="maintenance">Maintenance</button></div>
+
+<div class="tab-panel active" id="tab-workorder">
+<p class="kicker">WORK ORDER LIFECYCLE</p><h2>From request to controlled execution.</h2>
+<div class="flow-board"><div class="flow-step"><b>01 · Intake</b><span>Capture service request, site, asset, priority and required information.</span></div><div class="flow-step"><b>02 · Classify</b><span>Categorise work type and define ownership, priority and service level.</span></div><div class="flow-step"><b>03 · Assign</b><span>Route to the appropriate resource/team based on location, skill or service rule.</span></div><div class="flow-step"><b>04 · Close</b><span>Complete work, capture outcome, confirm service evidence and update status.</span></div></div>
+</div>
+
+<div class="tab-panel" id="tab-dispatch">
+<p class="kicker">SCHEDULING & DISPATCH</p><h2>Right work, right resource, right sequence.</h2>
+<div class="flow-board"><div class="flow-step"><b>Demand</b><span>Open work by priority, location and due date.</span></div><div class="flow-step"><b>Capacity</b><span>Available technician/resource capacity and constraints.</span></div><div class="flow-step"><b>Assignment</b><span>Allocate work using skill, geography, urgency and service rules.</span></div><div class="flow-step"><b>Dispatch</b><span>Sequence execution and keep operational hand-offs visible.</span></div></div>
+</div>
+
+<div class="tab-panel" id="tab-sla">
+<p class="kicker">SLA & ESCALATION</p><h2>Make service risk visible before it becomes failure.</h2>
+<div class="flow-board"><div class="flow-step"><b>Green</b><span>Work is within service target.</span></div><div class="flow-step"><b>Amber</b><span>Threshold approaching; review ownership and next action.</span></div><div class="flow-step"><b>Red</b><span>SLA at risk or breached; trigger escalation.</span></div><div class="flow-step"><b>Learn</b><span>Use recurring exceptions to improve routing, capacity or process design.</span></div></div>
+</div>
+
+<div class="tab-panel" id="tab-maintenance">
+<p class="kicker">MAINTENANCE & ASSET SERVICE</p><h2>Connect the work to the asset and its dependencies.</h2>
+<div class="flow-board"><div class="flow-step"><b>Asset</b><span>Identify the affected asset/service and operational context.</span></div><div class="flow-step"><b>Maintenance</b><span>Define required task, priority and maintenance workflow.</span></div><div class="flow-step"><b>Parts</b><span>Check inventory/parts dependency where relevant.</span></div><div class="flow-step"><b>Traceability</b><span>Capture action, status, evidence and service history.</span></div></div>
+</div>
+</div>
+</section>
+</main>
+<footer class="shell"><div class="brand"><span class="brandmark">UC</span><span><b>Ume Choudhary</b><small>ServiceNow FSM · Demo Lab</small></span></div><div><a href="index.html">Home</a><a href="case-studies.html">Case Studies</a><a href="dashboard-kpi-reporting.html">Dashboards</a></div></footer>
+<script src="script.js"></script></body></html>
