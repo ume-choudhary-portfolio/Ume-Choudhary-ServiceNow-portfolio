@@ -15,7 +15,7 @@ Important: upload the files themselves, not the outer folder.
 - interactive-demos.html
 - styles.css
 - script.js
-- Ume_Choudhary_ServiceNow_FSM_CV.pdf
+- Ume_Choudhary_Resume_2026.pdf
 - vercel.json
 - assets/favicon.svg
 
@@ -35,3 +35,7 @@ Other ServiceNow experience:
 ITSM, CSM, HRSD, Employee Center, EmployeeWorks, Employee Slate
 
 Other FSM products are explicitly labelled as platform familiarity rather than hands-on delivery.
+
+
+## CV fix
+All View CV / Download CV links now point to `Ume_Choudhary_Resume_2026.pdf`, which is included at the repository root.
